@@ -1,5 +1,4 @@
 
-
 import socket
 import sys
 import threading
@@ -12,7 +11,7 @@ queue = Queue()
 all_connections = []
 all_address = []
 
-
+#correct repo
 # Create a Socket ( connect two computers)
 def create_socket():
     try:
@@ -25,7 +24,6 @@ def create_socket():
 
     except socket.error as msg:
         print("Socket creation error: " + str(msg))
-
 
 # Binding the socket and listening for connections
 def bind_socket():
